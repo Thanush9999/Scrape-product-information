@@ -4,8 +4,8 @@ from bs4 import BeautifulSoup
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 
-# Define Flipkart search URL for mobiles under ₹7000
-flipkart_url = "https://www.flipkart.com/search?q=mobile+under+7000&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_2_6_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_2_6_na_na_na&as-pos=2&as-type=RECENT&suggestionId=mobile+under+7000&requestId=55ab0416-7d35-4251-9087-d26dcab4b634&as-searchtext=mobile"
+# Define Flipkart search URL for mobiles under ₹70000
+flipkart_url = "https://www.flipkart.com/search?q=mobile+under+70000&as=on&as-show=on&otracker=AS_Query_OrganicAutoSuggest_2_6_na_na_na&otracker1=AS_Query_OrganicAutoSuggest_2_6_na_na_na&as-pos=2&as-type=RECENT&suggestionId=mobile+under+7000&requestId=55ab0416-7d35-4251-9087-d26dcab4b634&as-searchtext=mobile"
 
 # Set up User-Agent rotation
 user_agents = [
